@@ -10,7 +10,7 @@ onready var player = get_parent().get_parent().get_node("Player")
 var type = "ENEMY"
 
 func _ready():
-	$Timer.set_wait_time(0.2)
+	$Timer.set_wait_time(1)
 	$Timer.start()
 	
 	var target = Vector2(self.position.x, 100)
@@ -18,7 +18,7 @@ func _ready():
 	$Move_Tween.start()
 	
 func _process(delta):
-	rotate(10 * delta)
+	#rotate(10 * delta)
 	position.y +=  50 * delta
 	
 	if (position.y > get_viewport_rect().size.y + 20):

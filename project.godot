@@ -15,7 +15,7 @@ _global_script_class_icons={
 
 [application]
 
-config/name="Bullet Generator"
+config/name="BulletHell - Dev - GitHub - Alexandre - Pika"
 run/main_scene="res://Scenes/Game.tscn"
 config/icon="res://icon.png"
 

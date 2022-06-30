@@ -1,0 +1,14 @@
+extends Node2D
+
+var health_status = [
+	"PERDESTE",
+	"PERIGO! MOTOR PRESTES A EXPLODIR",
+	"OS SISTEMAS ESTÃO FALHANDO",
+	"TUA NAVE APRESENTA ALGUNS FUROS",
+	"SUA NAVE ESTÁ QUASE NOVA",
+	"SUA NAVE ESTÁ NOVA"
+]
+
+func _ready():
+	Input.set_mouse_mode(Input.MOUSE_MODE_HIDDEN)
+
